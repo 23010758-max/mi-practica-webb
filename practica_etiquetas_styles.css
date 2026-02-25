@@ -1,0 +1,130 @@
+/* ==============================
+	1. configuraciones generales 
+   ==============================
+*/
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif; /*fuente moderna*/
+	background-color: #f4f4f9; /*fondo muy claro*/
+	color: #333; /*color de texto principal*/ 
+	margin: 0;
+	padding: 20px;
+	line-height: 1.6; /*espaciado comodo entre lineas*/	
+}
+
+/* ======================================
+   2. tipografia (encabesados y parrafos)
+   ======================================
+   */
+
+/* encabezado principal */ 
+h1{
+	color: #0056b3; /*azul oscuro para el titulo principal*/
+	border-bottom: 3px solid #0056b3;/* linea de divicion debajo del titulo*/
+	padding-bottom: 10px;
+	margin-top: 0;
+	font-size: 2.5em;
+}
+
+/* escabezados secundarios */
+h2, h3, h4, h5, h6 {
+	color: #2c3e50;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/* estilo para los sitintos niveles para ver la jerarquia */
+h6{
+	color: #6c757d;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+
+/* =============================
+   3. contenedores y estructuras
+   =============================
+  */
+
+/* estilo para el contenedor DIV principal */
+div{
+	border: 1px dolid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px 0;
+	background-color: #ffffff; /* dondo blanco dentro del div */
+
+}
+
+/* estilo para la linea horizontal */
+hr{
+	border: 0;
+	height: 1px;
+	background-color: #adb5bd;
+	margin: 40px 0;
+}
+
+
+/* ========================================================
+   4. elemetos en la linea (links, imagenes, spans, saltos)
+   ========================================================
+*/
+
+/* estilos para enlaces (<a>) */
+a{
+	color: #007bff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: #0056b3;
+	text-decoration: underline;
+}
+
+/* estilo para iamgenes (<img>) */
+img{
+	border: 4px solid #007bff;
+	border-radius: 50%;
+	display: block;
+	margin: 15px 0 16px 0;
+}
+
+
+span{
+	padding: 3px 6px;
+	border-radius: 3px;
+	background-color: #e0f7fa;
+	color: #0056b3;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+ul, ol{
+	margin-left: 20px;
+	padding-left: 0;
+	margin-top: 10px;
+}
+
+
+li {
+	margin-bottom: 5px;
+
+	color: #007bff;
+}
+
+
+li:last-child {
+
+	color: #333;
+}
